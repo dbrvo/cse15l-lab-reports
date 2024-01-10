@@ -1,8 +1,8 @@
-## Lab Report 1
+# Lab Report 1
 Daniel Bravo
 
 
-# cd
+## cd
 1. ss
 2. /main
 3. 
