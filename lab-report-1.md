@@ -49,7 +49,7 @@ Daniel Bravo
    * The output was nothing. This is because cat without an argument will read from stdin.
    * No error
   
-2. cat wiht a path to a directory as an argument
+2. cat with a path to a directory as an argument
    * ![Image](lab-rep-1-image8.png)
    * Working Directory: /home
    * The output shows an error telling you the path is a directory. This is because cat displays text within a file.
