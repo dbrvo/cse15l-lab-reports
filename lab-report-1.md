@@ -2,7 +2,7 @@
 Daniel Bravo
 
 
-##`cd`
+`cd`
 1. `cd` no arguments
    * ![Image](lab-rep-1-image10.png)
    * Working Directory: `/home/lecture1`
@@ -22,7 +22,7 @@ Daniel Bravo
    * There was an error because `cd` uses directories as paths, not files.
 
 
-##`ls`
+`ls`
 1. `ls` no arguments
    * ![Image](lab-rep-1-image4.png)
    * Working Directory: `/home`
@@ -42,7 +42,7 @@ Daniel Bravo
    * No error
   
 
-##`cat`
+`cat`
 1. `cat` no arguments
    * ![Image](lab-rep-1-image7.png)
    * Working Directory: `/home`
