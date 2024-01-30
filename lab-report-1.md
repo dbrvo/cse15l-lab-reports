@@ -1,3 +1,10 @@
+@media (prefers-color-scheme:dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
 # Lab Report 1
 Daniel Bravo
 
