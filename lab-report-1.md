@@ -2,27 +2,27 @@
 Daniel Bravo
 
 
-## cd
-1. cd no arguments
+##`cd`
+1. `cd` no arguments
    * ![Image](lab-rep-1-image1.png)
-   * Working Directory: /home
-   * The output was nothing because cd means to change directory. If there is no path provided, the directory will not change.
+   * Working Directory: `/home/lecture1`
+   * The output was switching to home directory because cd means to change directory. If there is no path provided, the directory will not change.
    * No error
      
-2. cd with a path to a directory as an argument
+2. `cd` with a path to a directory as an argument
    * ![Image](lab-rep-1-image2.png)
    * Working Directory: /home
    * The output was nothing because cd means to change directory. However, because a path was provided, the directory changed.
    * No error
      
-3. cd with a path to a file as an argument
+3. `cd` with a path to a file as an argument
    * ![Image](lab-rep-1-image3.png)
    * Working Directory: /home/lecture1
    * The output was an error saying that Hello.java is not a directory. This is because Hello.java is a file, so cd doesn't apply to it.
    * There was an error because cd uses directories as paths, not files.
 
 
-## ls
+##ls
 1. ls no arguments
    * ![Image](lab-rep-1-image4.png)
    * Working Directory: /home
