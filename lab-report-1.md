@@ -1,9 +1,15 @@
-@media (prefers-color-scheme:dark) {
-  body {
-    background-color: black;
-    color: white;
-  }
+<style type="text/css">
+@media (prefers-color-scheme: dark)
+{
+    svg {
+        filter: invert(93%) hue-rotate(180deg);
+        background-color: transparent !important;
+    }
+    image {
+        filter: invert(100%) hue-rotate(180deg) saturate(1.25);
+    }
 }
+</style>
 
 # Lab Report 1
 Daniel Bravo
