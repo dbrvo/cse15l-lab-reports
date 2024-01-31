@@ -18,7 +18,7 @@ Daniel Bravo
 3. `cd` with a path to a file as an argument
    * ![Image](lab-rep-1-image3.png)
    * Working Directory: `/home/lecture1`
-   * The output was an error saying that Hello.java is not a directory. This is because `Hello.java` is a file, so `cd` doesn't apply to it.
+   * The output was an error saying that `Hello.java` is not a directory. This is because `Hello.java` is a file, so `cd` doesn't apply to it.
    * There was an error because `cd` uses directories as paths, not files.
 
 
