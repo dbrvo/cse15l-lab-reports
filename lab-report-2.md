@@ -82,5 +82,12 @@ class ChatServer {
 <br />
 
 ## Part 2
+<img width="429" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/ce0c74a9-8b38-4b94-8b12-843840edf462">
+
+<img width="303" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/c1a48028-10f5-4558-828e-942da572b767">
+
+<img width="705" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/1367e17a-ebbe-48ee-b22a-55fd13c87e5f">
+
+
 
 
