@@ -84,10 +84,24 @@ class ChatServer {
 ## Part 2
 <img width="429" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/ce0c74a9-8b38-4b94-8b12-843840edf462">
 
+The absolute path to the private key for your SSH key for logging into `ieng6` (private key is inside `id_rsa`).
+
+<br />
+<br />
+
 <img width="303" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/c1a48028-10f5-4558-828e-942da572b767">
+
+The absolute path to the public key for your SSH key for logging into `ieng6` (public key is inside `authorized_keys`)
+
+<br />
+<br />
 
 <img width="705" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/1367e17a-ebbe-48ee-b22a-55fd13c87e5f">
 
+A terminal interaction where you log into your `ieng6` account *without* being asked for a password.
 
+<br />
+<br />
 
-
+## Part 3
+In both labs from weeks 2 and 3 I learned many things I did not know before. For example, for week 2 I had no clue how to run your own web servers from the terminal and a program or how to use the URL to run certain methods in a program. From week 3, I did not know you can use ssh to connect my computer to another. Also, I learned how to make it so I can log in without my password, and I learned a lot more about web servers this week. Most of the things introduced these past few weeks have been completely new, and I have learned many of the basics attaining to these new concepts.
