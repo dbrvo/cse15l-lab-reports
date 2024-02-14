@@ -85,14 +85,16 @@ class ChatServer {
 <img width="428" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/c0e393d3-6542-495c-aa4a-a729efd2baef">
 
 The path to the private key for your SSH key for logging into `ieng6` (private key is inside `id_rsa`).
-The absolute path should be `/Users/danielbravp/.ssh`
+
+The absolute path should be `/Users/danielbravo/.ssh/id_rsa`
 
 <br />
 <br />
 
 <img width="303" alt="image" src="https://github.com/dbrvo/cse15l-lab-reports/assets/87788227/c1a48028-10f5-4558-828e-942da572b767">
 
-The path to the public key for your SSH key for logging into `ieng6` (public key is inside `authorized_keys`)
+The path to the public key for your SSH key for logging into `ieng6` (public key is inside `authorized_keys`).
+
 The absolute path should be `/home/linux/ieng6/oce/3g/dbravo/.ssh/authorized_keys`
 
 <br />
