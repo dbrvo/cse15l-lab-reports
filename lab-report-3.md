@@ -74,13 +74,14 @@ For reverseInPlace I changed the for loop to be bound by i<arr.length/2 because 
      % find . -name preface.txt
        ./911report/preface.txt
      ```
+   * The `-name` with a file name found a file that has a specific name. It is useful when you want to know the specific location of a file when you know its name.
    * ```
      % find . -name About_LSC
        ./government/About_LSC
      ```
-   * The `-name` option finds a file or directory that has a specific name. It is useful when you want to know the specific location of a file or directory when you know its name.
+   * The `-name` with a directory name found a directory that has a specific name. It is useful when you want to know the specific location of a directory when you know its name.
 
-3. `find -type «type»`
+2. `find -type «type»`
    * ```
      % find . -type d
        .
@@ -95,17 +96,19 @@ For reverseInPlace I changed the for loop to be bound by i<arr.length/2 because 
        ./biomed
        ./911report
      ```
+   * The `-type` followed by a `d` searches for files of type directory. It is useful when you want to specify if what your looking for is a file or directory
    * ```
      % find . -type f -name "chapter-10.txt"
        ./911report/chapter-10.txt
      ```
-   * The `-type` option can be added to find the type of file to search for: f is for file and d is for directory. It is useful when you want to specify if what your looking for is a file or directory
+   * The `-type` followed by a `f` searches for files of type file. It is useful when you want to specify if what your looking for is a file or directory
 
-4. `find -size «n»`
+3. `find -size «n»`
    * ```
      % find . -size +590
        ./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
      ```
+   * The `-size` followed by a plus and number n looks for flies that take up more than n units of space. It is useful when you want to find and potentially use a file that uses up more space than others.
    * ```
      % find . -size -2
        .
@@ -114,9 +117,9 @@ For reverseInPlace I changed the for loop to be bound by i<arr.length/2 because 
        ./government/Alcohol_Problems
        ./government/Post_Rate_Comm
      ```
-   * The `-size` option can be added to find the files that uses less than, more than or exactly n units of space. It is useful when you want to find and potentially use a file that uses up less or more space than others.
+   * The `-size` followed by a plus and number n looks for flies that take up less than n units of space. It is useful when you want to find and potentially use a file that uses up less space than others.
 
-5. `find -mindepth «levels»`
+4. `find -mindepth «levels»`
    * ```
      % find . -mindepth 3
        ./government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
@@ -127,6 +130,7 @@ For reverseInPlace I changed the for loop to be bound by i<arr.length/2 because 
        ./government/About_LSC/CONFIG_STANDARDS.txt
        ... lots of lines! ...
      ```
+   * The `-mindepth` option specifies the minimum directory depth for the search. It can be useful when you want to find a file or directory that has a certain depth, for example helping with organization.
    * ```
      % find . -type d -mindepth 2
        ./government/About_LSC
@@ -136,7 +140,7 @@ For reverseInPlace I changed the for loop to be bound by i<arr.length/2 because 
        ./government/Post_Rate_Comm
        ./government/Media
      ```
-   * The `-mindepth` option specifies the minimum directory depth for the search. It can be useful when you want to find a file or directory that has a certain depth, hence for example helping with organization.
+   * The `-mindepth` option can also be paired up with other options like `-type` to be even more specific. It can be useful when you want to find a file or directory that has a certain depth and file type.
   
 
 <br />
